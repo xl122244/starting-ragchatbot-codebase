@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(uv pip install:*)",
+      "Bash(if [ ! -d \"backend/tests\" ])",
+      "Bash(then mkdir -p backend/tests)",
+      "Bash(else echo \"backend/tests already exists\")",
+      "Bash(fi)",
+      "Bash(python tests/test_database_status.py:*)",
+      "Bash(pytest:*)",
+      "Bash(python tests/test_simple_search.py:*)"
+    ]
+  }
+}
