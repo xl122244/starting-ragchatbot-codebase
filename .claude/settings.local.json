@@ -8,7 +8,10 @@
       "Bash(fi)",
       "Bash(python tests/test_database_status.py:*)",
       "Bash(pytest:*)",
-      "Bash(python tests/test_simple_search.py:*)"
+      "Bash(python tests/test_simple_search.py:*)",
+      "Bash(git add:*)",
+      "Bash(git worktree list:*)",
+      "Bash(git rm:*)"
     ]
   }
 }
