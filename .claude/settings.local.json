@@ -8,7 +8,14 @@
       "Bash(fi)",
       "Bash(python tests/test_database_status.py:*)",
       "Bash(pytest:*)",
-      "Bash(python tests/test_simple_search.py:*)"
+      "Bash(python tests/test_simple_search.py:*)",
+      "Bash(chmod:*)",
+      "Bash(uv sync:*)",
+      "Bash(uv pip index versions:*)",
+      "Bash(uv add:*)",
+      "Bash(UV_HTTP_TIMEOUT=120 uv sync:*)",
+      "Bash(git add:*)",
+      "Bash(git commit -m \"$\\(cat <<''EOF''\nAdd code quality tooling and quality check script\n\n- Added development dependencies: pytest-cov, black, ruff, and mypy\n- Configured code quality tools in pyproject.toml with Python 3.13 target\n- Added quality.sh script for running formatters, linters, type checker, and tests\n- Updated bash command permissions in Claude settings\n- Updated project documentation \\(CLAUDE.md\\)\n\nCo-Authored-By: Claude Sonnet 4.5 <noreply@anthropic.com>\nEOF\n\\)\")"
     ]
   }
 }
