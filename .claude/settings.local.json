@@ -9,9 +9,20 @@
       "Bash(python tests/test_database_status.py:*)",
       "Bash(pytest:*)",
       "Bash(python tests/test_simple_search.py:*)",
+      "Bash(git worktree:*)",
       "Bash(git merge:*)",
+      "Bash(git checkout:*)",
       "Bash(git add:*)",
-      "Bash(git commit:*)"
+      "Bash(git commit:*)",
+      "Bash(git rm:*)",
+      "Bash(chmod:*)",
+      "Bash(uv sync:*)",
+      "Bash(uv run pytest:*)",
+      "Bash(uv pip index versions:*)",
+      "Bash(uv add:*)",
+      "Bash(UV_HTTP_TIMEOUT=*:*)",
+      "Bash(git worktree list:*)",
+      "Bash(uv lock:*)"
     ]
   }
 }
