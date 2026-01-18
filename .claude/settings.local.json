@@ -20,7 +20,8 @@
       "Bash(uv run pytest:*)",
       "Bash(uv pip index versions:*)",
       "Bash(uv add:*)",
-      "Bash(UV_HTTP_TIMEOUT=*:*)"
+      "Bash(UV_HTTP_TIMEOUT=*:*)",
+      "Bash(git worktree list:*)"
     ]
   }
 }
