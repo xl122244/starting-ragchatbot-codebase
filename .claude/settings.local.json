@@ -14,8 +14,13 @@
       "Bash(git checkout:*)",
       "Bash(git add:*)",
       "Bash(git commit:*)",
+      "Bash(git rm:*)",
+      "Bash(chmod:*)",
       "Bash(uv sync:*)",
-      "Bash(uv run pytest:*)"
+      "Bash(uv run pytest:*)",
+      "Bash(uv pip index versions:*)",
+      "Bash(uv add:*)",
+      "Bash(UV_HTTP_TIMEOUT=*:*)"
     ]
   }
 }
